@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NSThreadViewController">
+            <connections>
+                <outlet property="imageView" destination="qW2-24-inA" id="54B-sx-g1C"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qW2-24-inA">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="Ryd-xg-EHW"/>
+                        <constraint firstAttribute="height" constant="240" id="SuU-fc-0ul"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5p-E8-y9e">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="8w2-kj-fDR"/>
+                        <constraint firstAttribute="width" constant="100" id="o6A-r2-glr"/>
+                    </constraints>
+                    <state key="normal" title="开辟一个线程"/>
+                    <connections>
+                        <action selector="downloadAction:" destination="-1" eventType="touchUpInside" id="e6t-pe-zUC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="A5p-E8-y9e" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="iCy-o9-e1c"/>
+                <constraint firstItem="qW2-24-inA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kHI-K5-nJF"/>
+                <constraint firstItem="A5p-E8-y9e" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="p8P-FK-sCY"/>
+                <constraint firstItem="qW2-24-inA" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="yYw-tj-HEd"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

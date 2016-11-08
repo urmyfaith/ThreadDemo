@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30DE8031DB94A5900A586CB /* GCDMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A30DE8021DB94A5900A586CB /* GCDMethod.m */; };
+		A30DE8061DBADD2500A586CB /* SellTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A30DE8051DBADD2500A586CB /* SellTicketsViewController.m */; };
+		A30DE8481DC0147C00A586CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30DE8461DC0147C00A586CB /* LaunchScreen.storyboard */; };
 		A3DDBDD81DB0075000CE259C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDBDD71DB0075000CE259C /* main.m */; };
 		A3DDBDDB1DB0075000CE259C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDBDDA1DB0075000CE259C /* AppDelegate.m */; };
 		A3DDBDDE1DB0075000CE259C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDBDDD1DB0075000CE259C /* ViewController.m */; };
-		A3DDBDE11DB0075000CE259C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DDBDDF1DB0075000CE259C /* Main.storyboard */; };
 		A3DDBDE31DB0075000CE259C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DDBDE21DB0075000CE259C /* Assets.xcassets */; };
-		A3DDBDE61DB0075000CE259C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DDBDE41DB0075000CE259C /* LaunchScreen.storyboard */; };
 		A3DDBDF11DB0075000CE259C /* ThreadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDBDF01DB0075000CE259C /* ThreadDemoTests.m */; };
 		A3DDBDFC1DB0075000CE259C /* ThreadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDBDFB1DB0075000CE259C /* ThreadDemoUITests.m */; };
+		A3DDBE0A1DB5905D00CE259C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DDBE091DB5905D00CE259C /* ViewController.xib */; };
+		A3DDBE111DB592E800CE259C /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDBE0F1DB592E800CE259C /* GCDViewController.m */; };
+		A3DDBE121DB592E800CE259C /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DDBE101DB592E800CE259C /* GCDViewController.xib */; };
+		A3DDBE161DB5930300CE259C /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDBE141DB5930300CE259C /* OperationViewController.m */; };
+		A3DDBE171DB5930300CE259C /* OperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DDBE151DB5930300CE259C /* OperationViewController.xib */; };
+		A3DDBE1B1DB5931200CE259C /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDBE191DB5931200CE259C /* NSThreadViewController.m */; };
+		A3DDBE1C1DB5931200CE259C /* NSThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DDBE1A1DB5931200CE259C /* NSThreadViewController.xib */; };
+		A3FFF6E81DD0F3F90061AC2F /* OperationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFF6E71DD0F3F90061AC2F /* OperationMethod.m */; };
+		A3FFF6EB1DD0FBBC0061AC2F /* SubClassOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFF6EA1DD0FBBC0061AC2F /* SubClassOperation.m */; };
+		A3FFF6F41DD11FB90061AC2F /* JYConcurrenOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFF6F31DD11FB90061AC2F /* JYConcurrenOperation.m */; };
+		A3FFF6F71DD120060061AC2F /* JYSerialOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFF6F61DD120060061AC2F /* JYSerialOperation.m */; };
+		A3FFF6FA1DD139730061AC2F /* JYConcurrentOperation2.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFF6F91DD139730061AC2F /* JYConcurrentOperation2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A30DE8011DB94A5900A586CB /* GCDMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMethod.h; sourceTree = "<group>"; };
+		A30DE8021DB94A5900A586CB /* GCDMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDMethod.m; sourceTree = "<group>"; };
+		A30DE8041DBADD2500A586CB /* SellTicketsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellTicketsViewController.h; sourceTree = "<group>"; };
+		A30DE8051DBADD2500A586CB /* SellTicketsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellTicketsViewController.m; sourceTree = "<group>"; };
+		A30DE8471DC0147C00A586CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3DDBDD31DB0075000CE259C /* ThreadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DDBDD71DB0075000CE259C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3DDBDD91DB0075000CE259C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3DDBDDA1DB0075000CE259C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A3DDBDDC1DB0075000CE259C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A3DDBDDD1DB0075000CE259C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A3DDBDE01DB0075000CE259C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3DDBDE21DB0075000CE259C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3DDBDE51DB0075000CE259C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3DDBDE71DB0075000CE259C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3DDBDEC1DB0075000CE259C /* ThreadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DDBDF01DB0075000CE259C /* ThreadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +67,26 @@
 		A3DDBDF71DB0075000CE259C /* ThreadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DDBDFB1DB0075000CE259C /* ThreadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadDemoUITests.m; sourceTree = "<group>"; };
 		A3DDBDFD1DB0075000CE259C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DDBE091DB5905D00CE259C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A3DDBE0E1DB592E800CE259C /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		A3DDBE0F1DB592E800CE259C /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		A3DDBE101DB592E800CE259C /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
+		A3DDBE131DB5930300CE259C /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		A3DDBE141DB5930300CE259C /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		A3DDBE151DB5930300CE259C /* OperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OperationViewController.xib; sourceTree = "<group>"; };
+		A3DDBE181DB5931200CE259C /* NSThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadViewController.h; sourceTree = "<group>"; };
+		A3DDBE191DB5931200CE259C /* NSThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
+		A3DDBE1A1DB5931200CE259C /* NSThreadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSThreadViewController.xib; sourceTree = "<group>"; };
+		A3FFF6E61DD0F3F90061AC2F /* OperationMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMethod.h; sourceTree = "<group>"; };
+		A3FFF6E71DD0F3F90061AC2F /* OperationMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMethod.m; sourceTree = "<group>"; };
+		A3FFF6E91DD0FBBC0061AC2F /* SubClassOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClassOperation.h; sourceTree = "<group>"; };
+		A3FFF6EA1DD0FBBC0061AC2F /* SubClassOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClassOperation.m; sourceTree = "<group>"; };
+		A3FFF6F21DD11FB90061AC2F /* JYConcurrenOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYConcurrenOperation.h; sourceTree = "<group>"; };
+		A3FFF6F31DD11FB90061AC2F /* JYConcurrenOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYConcurrenOperation.m; sourceTree = "<group>"; };
+		A3FFF6F51DD120060061AC2F /* JYSerialOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYSerialOperation.h; sourceTree = "<group>"; };
+		A3FFF6F61DD120060061AC2F /* JYSerialOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYSerialOperation.m; sourceTree = "<group>"; };
+		A3FFF6F81DD139730061AC2F /* JYConcurrentOperation2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYConcurrentOperation2.h; sourceTree = "<group>"; };
+		A3FFF6F91DD139730061AC2F /* JYConcurrentOperation2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYConcurrentOperation2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +137,16 @@
 		A3DDBDD51DB0075000CE259C /* ThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A3DDBE0D1DB592BF00CE259C /* NSThread */,
+				A3DDBE0B1DB592BF00CE259C /* GCD */,
+				A3DDBE0C1DB592BF00CE259C /* NSOperation */,
 				A3DDBDD91DB0075000CE259C /* AppDelegate.h */,
 				A3DDBDDA1DB0075000CE259C /* AppDelegate.m */,
 				A3DDBDDC1DB0075000CE259C /* ViewController.h */,
 				A3DDBDDD1DB0075000CE259C /* ViewController.m */,
-				A3DDBDDF1DB0075000CE259C /* Main.storyboard */,
+				A3DDBE091DB5905D00CE259C /* ViewController.xib */,
 				A3DDBDE21DB0075000CE259C /* Assets.xcassets */,
-				A3DDBDE41DB0075000CE259C /* LaunchScreen.storyboard */,
+				A30DE8461DC0147C00A586CB /* LaunchScreen.storyboard */,
 				A3DDBDE71DB0075000CE259C /* Info.plist */,
 				A3DDBDD61DB0075000CE259C /* Supporting Files */,
 			);
@@ -138,6 +177,50 @@
 				A3DDBDFD1DB0075000CE259C /* Info.plist */,
 			);
 			path = ThreadDemoUITests;
+			sourceTree = "<group>";
+		};
+		A3DDBE0B1DB592BF00CE259C /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A3DDBE0E1DB592E800CE259C /* GCDViewController.h */,
+				A3DDBE0F1DB592E800CE259C /* GCDViewController.m */,
+				A3DDBE101DB592E800CE259C /* GCDViewController.xib */,
+				A30DE8011DB94A5900A586CB /* GCDMethod.h */,
+				A30DE8021DB94A5900A586CB /* GCDMethod.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		A3DDBE0C1DB592BF00CE259C /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				A3DDBE131DB5930300CE259C /* OperationViewController.h */,
+				A3DDBE141DB5930300CE259C /* OperationViewController.m */,
+				A3DDBE151DB5930300CE259C /* OperationViewController.xib */,
+				A3FFF6E61DD0F3F90061AC2F /* OperationMethod.h */,
+				A3FFF6E71DD0F3F90061AC2F /* OperationMethod.m */,
+				A3FFF6E91DD0FBBC0061AC2F /* SubClassOperation.h */,
+				A3FFF6EA1DD0FBBC0061AC2F /* SubClassOperation.m */,
+				A3FFF6F51DD120060061AC2F /* JYSerialOperation.h */,
+				A3FFF6F61DD120060061AC2F /* JYSerialOperation.m */,
+				A3FFF6F21DD11FB90061AC2F /* JYConcurrenOperation.h */,
+				A3FFF6F31DD11FB90061AC2F /* JYConcurrenOperation.m */,
+				A3FFF6F81DD139730061AC2F /* JYConcurrentOperation2.h */,
+				A3FFF6F91DD139730061AC2F /* JYConcurrentOperation2.m */,
+			);
+			path = NSOperation;
+			sourceTree = "<group>";
+		};
+		A3DDBE0D1DB592BF00CE259C /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				A3DDBE181DB5931200CE259C /* NSThreadViewController.h */,
+				A3DDBE191DB5931200CE259C /* NSThreadViewController.m */,
+				A3DDBE1A1DB5931200CE259C /* NSThreadViewController.xib */,
+				A30DE8041DBADD2500A586CB /* SellTicketsViewController.h */,
+				A30DE8051DBADD2500A586CB /* SellTicketsViewController.m */,
+			);
+			path = NSThread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +290,7 @@
 				TargetAttributes = {
 					A3DDBDD21DB0075000CE259C = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G3HJ44W84H;
 						ProvisioningStyle = Automatic;
 					};
 					A3DDBDEB1DB0075000CE259C = {
@@ -246,9 +330,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DDBDE61DB0075000CE259C /* LaunchScreen.storyboard in Resources */,
+				A3DDBE171DB5930300CE259C /* OperationViewController.xib in Resources */,
+				A3DDBE1C1DB5931200CE259C /* NSThreadViewController.xib in Resources */,
+				A3DDBE0A1DB5905D00CE259C /* ViewController.xib in Resources */,
+				A30DE8481DC0147C00A586CB /* LaunchScreen.storyboard in Resources */,
 				A3DDBDE31DB0075000CE259C /* Assets.xcassets in Resources */,
-				A3DDBDE11DB0075000CE259C /* Main.storyboard in Resources */,
+				A3DDBE121DB592E800CE259C /* GCDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +360,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FFF6F41DD11FB90061AC2F /* JYConcurrenOperation.m in Sources */,
 				A3DDBDDE1DB0075000CE259C /* ViewController.m in Sources */,
+				A3FFF6F71DD120060061AC2F /* JYSerialOperation.m in Sources */,
+				A3FFF6E81DD0F3F90061AC2F /* OperationMethod.m in Sources */,
+				A3DDBE1B1DB5931200CE259C /* NSThreadViewController.m in Sources */,
 				A3DDBDDB1DB0075000CE259C /* AppDelegate.m in Sources */,
+				A3DDBE161DB5930300CE259C /* OperationViewController.m in Sources */,
+				A3FFF6EB1DD0FBBC0061AC2F /* SubClassOperation.m in Sources */,
+				A3FFF6FA1DD139730061AC2F /* JYConcurrentOperation2.m in Sources */,
+				A30DE8061DBADD2500A586CB /* SellTicketsViewController.m in Sources */,
 				A3DDBDD81DB0075000CE259C /* main.m in Sources */,
+				A30DE8031DB94A5900A586CB /* GCDMethod.m in Sources */,
+				A3DDBE111DB592E800CE259C /* GCDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,18 +408,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A3DDBDDF1DB0075000CE259C /* Main.storyboard */ = {
+		A30DE8461DC0147C00A586CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A3DDBDE01DB0075000CE259C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A3DDBDE41DB0075000CE259C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3DDBDE51DB0075000CE259C /* Base */,
+				A30DE8471DC0147C00A586CB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -424,7 +513,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = G3HJ44W84H;
 				INFOPLIST_FILE = ThreadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dely.ThreadDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +527,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = G3HJ44W84H;
 				INFOPLIST_FILE = ThreadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dely.ThreadDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +602,7 @@
 				A3DDBE021DB0075000CE259C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3DDBE031DB0075000CE259C /* Build configuration list for PBXNativeTarget "ThreadDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +611,7 @@
 				A3DDBE051DB0075000CE259C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3DDBE061DB0075000CE259C /* Build configuration list for PBXNativeTarget "ThreadDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +620,7 @@
 				A3DDBE081DB0075000CE259C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

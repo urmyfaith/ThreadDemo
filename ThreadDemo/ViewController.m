@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "NSThreadViewController.h"
+#import "OperationViewController.h"
+#import "GCDViewController.h"
 
 @interface ViewController ()
 
@@ -16,14 +19,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"多线程";
+    
+
+}
+
+- (IBAction)NSThreadAction:(UIButton *)sender {
+    NSThreadViewController *TVC = [[NSThreadViewController alloc] init];
+    [self.navigationController pushViewController:TVC animated:YES];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)GCDAction:(UIButton *)sender {
+    GCDViewController *GCDVC = [[GCDViewController alloc] init];
+    [self.navigationController pushViewController:GCDVC animated:YES];
 }
+
+- (IBAction)OperationAction:(UIButton *)sender {
+    OperationViewController *OVC = [[OperationViewController alloc] init];
+    [self.navigationController pushViewController:OVC animated:YES];
+}
+
 
 
 @end
